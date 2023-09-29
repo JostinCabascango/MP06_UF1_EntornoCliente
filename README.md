@@ -33,7 +33,7 @@ En este ejercicio, se debe ingresar un número en un campo de entrada y luego ha
 
 1. Clona este repositorio en tu máquina local si aún no lo has hecho.
 ```bash
-git clone https://github.com/JostinCabascango/M6_CLIENTE_UF1.git
+git clone https://github.com/JostinCabascango/MP06_UF1_EntornoCliente.git
 ```
 2.Navega a la carpeta "MP06_UF1_EntornoCliente" en tu terminal.
 ```bash
