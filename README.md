@@ -1,42 +1,43 @@
 # M6: Desarrollo web en entorno cliente - Unidad Formativa 1
 
-Este repositorio contiene los ejercicios realizados durante las sesiones de la unidad formativa 1 del Módulo M6: Desarrollo web en entorno cliente.
+Este repositorio contiene los ejercicios realizados durante las sesiones de la unidad formativa 1 del Módulo Desarrollo web en entorno cliente.
 
 ## Sesiones
 
-### [Sesión 1](https://github.com/TuUsuario/M6_CLIENTE_UF1/tree/sesion1)
+### [Sesión 1 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion1)
 
-- **Ejercicio 1:** Descripción del ejercicio 1.
-- **Ejercicio 2:** Descripción del ejercicio 2.
-- **Ejercicio 3:** Descripción del ejercicio 3.
+### [Sesión 2 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion2)
 
-### [Sesión 2](https://github.com/TuUsuario/M6_CLIENTE_UF1/tree/sesion2)
+### [Sesión 3 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion3)
 
-- **Ejercicio 1:** Descripción del ejercicio 1.
-- **Ejercicio 2:** Descripción del ejercicio 2.
-- **Ejercicio 3:** Descripción del ejercicio 3.
-
-### [Sesión 3](https://github.com/TuUsuario/M6_CLIENTE_UF1/tree/sesion3)
-
-- **Ejercicio 1:** Descripción del ejercicio 1.
-- **Ejercicio 2:** Descripción del ejercicio 2.
-- **Ejercicio 3:** Descripción del ejercicio 3.
-- **Ejercicio 4:** Descripción del ejercicio 4.
-
-### [Sesión 4](https://github.com/TuUsuario/M6_CLIENTE_UF1/tree/sesion4)
-
-- **Ejercicio 1:** Descripción del ejercicio 1.
-- **Ejercicio 2:** Descripción del ejercicio 2.
-- **Ejercicio 3:** Descripción del ejercicio 3.
+### [Sesión 4 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion4)
 
 ## Cómo usar este repositorio
 
-En cada carpeta de sesión, encontrarás los archivos correspondientes a los ejercicios realizados durante esa sesión. Puedes navegar a cada carpeta para ver el código y las instrucciones específicas de cada ejercicio.
+### Opción 1: Desde GitHub
+1. Haz clic en uno de los enlaces de sesiones anteriores para ir a la rama de esa sesión específica.
 
-## Contribuciones
+2. Dentro de la rama de la sesión, encontrarás los archivos relacionados con los ejercicios de esa sesión en particular.
 
-Si deseas contribuir a este repositorio o realizar mejoras, ¡no dudes en hacerlo! Simplemente realiza un fork del repositorio, crea una rama para tus cambios y envía una solicitud de extracción.
+3. Puedes explorar los archivos siguiendo las instrucciones proporcionadas en los archivos `README.md` de cada sesión o en los propios archivos de código.
 
+### Opción 2: Desde el Terminal (Línea de Comandos)
+1. Abre una ventana de línea de comandos (CMD) en tu computadora.
+
+2. Navega al directorio en el que deseas clonar el repositorio utilizando el comando `cd` (cambiar directorio). Por ejemplo:
+```shell
+   cd C:\Directorio\Deseado
+```
+3. Utiliza el comando git clone seguido de la URL de la rama específica del repositorio que deseas clonar.A continuación, se muestra un ejemplo de cómo clonar la "Sesión 1" del repositorio:
+```shell
+git clone https://github.com/JostinCabascango/MP06_UF1_EntornoCliente.git --branch sesion1 --single-branch
+```
+4. Una vez que se haya clonado la rama específica, puedes navegar al directorio correspondiente utilizando el comando cd:
+```shell
+   cd MP06_UF1_EntornoCliente
+```
+5. Dentro del directorio de la sesión específica, puedes explorar los archivos relacionados con esa sesión en particular.
+   
 ## Autor
 
 - [Jostin Cabascango](https://github.com/JostinCabascango/)
