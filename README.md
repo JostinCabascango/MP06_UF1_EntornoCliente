@@ -13,5 +13,3 @@ El repositorio para esta sesión contiene los siguientes archivos:
 2. `index.html`: Este es el archivo HTML principal del proyecto. Contiene la estructura básica de la página web y hace referencia a los archivos JavaScript y CSS.
 
 3. `styles.css`: Este archivo contiene los estilos CSS para el contenido del HTML
-
-Para usar este código, simplemente abre el archivo `index.html` en tu navegador y sigue las instrucciones en pantalla.
