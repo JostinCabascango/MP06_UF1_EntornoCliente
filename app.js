@@ -1,68 +1,67 @@
-//Function to display an alert
-function showAlert() {
-  const message = "You clicked the button!";
-  alert(message);
+// Función para mostrar una alerta
+function mostrarAlerta() {
+    const mensaje = "¡Hiciste clic en el botón!";
+    alert(mensaje);
 }
 
-// Function to display a result message
-function showResult(message) {
-  alert(message);
+// Función para mostrar un mensaje de resultado
+function mostrarResultado(mensaje) {
+    alert(mensaje);
 }
 
-// Function to display an error message
-function showError(message) {
-  alert(message);
+// Función para mostrar un mensaje de error
+function mostrarError(mensaje) {
+    alert(mensaje);
 }
 
-function showMultiplyTable(number) {
-  let htmlTable = "<h2>Multiplication table of " + number + "</h2>";
-  htmlTable +=
-    "<table class='table'><thead><tr><th>Operation</th><th>Result</th></tr></thead><tbody>";
+// Función para mostrar una tabla de multiplicar
+function mostrarTablaDeMultiplicar(numero) {
+    let tablaHTML = `<h2>Tabla de multiplicar de ${numero}</h2>`;
+    tablaHTML += "<table class='table'><thead><tr><th>Operación</th><th>Resultado</th></tr></thead><tbody>";
 
-  for (let i = 1; i <= 10; i++) {
-    const result = number * i;
-    htmlTable +=
-      "</td><td>" + number + " x " + i + "</td><td>" + result + "</td></tr>";
-  }
+    for (let i = 1; i <= 10; i++) {
+        const resultado = numero * i;
+        tablaHTML += `<tr><td>${numero} x ${i}</td><td>${resultado}</td></tr>`;
+    }
 
-  htmlTable += "</tbody></table>";
-  // Show the table in the element with the ID "multiplyTable"
-  document.getElementById("multiplyTable").innerHTML = htmlTable;
+    tablaHTML += "</tbody></table>";
+    // Muestra la tabla en el elemento con el ID "tablaDeMultiplicar"
+    document.getElementById("tablaDeMultiplicar").innerHTML = tablaHTML;
 }
-//-----------------------------------------------EXERCICES-------------------------------------------------------------
 
-//EXERCICE 1
-const myButton = document.getElementById("myButton");
-myButton.addEventListener("click", showAlert);
+//-----------------------------------------------EJERCICIOS-------------------------------------------------------------
 
-//EXERCICE 2
-const myButton2 = document.getElementById("btn");
-myButton2.addEventListener("mouseover", function () {
-  const message = "Click on the button";
-  alert(message);
+// EJERCICIO 1
+const miBoton = document.getElementById("miBoton");
+miBoton.addEventListener("click", mostrarAlerta);
+
+// EJERCICIO 2
+const miBoton2 = document.getElementById("btn");
+miBoton2.addEventListener("mouseover", function () {
+    const mensaje = "Haz clic en el botón";
+    alert(mensaje);
 });
 
-//EXERCICE 3
-const submitButton = document.getElementById("submitButton");
-submitButton.addEventListener("click", function () {
-  const message = document.getElementById("inputMessage").value;
-  if (message) {
-    alert(message);
-  } else {
-    showError("Please enter a message");
-  }
+// EJERCICIO 3
+const botonEnviar = document.getElementById("botonEnviar");
+botonEnviar.addEventListener("click", function () {
+    const mensaje = document.getElementById("inputMensaje").value;
+    if (mensaje) {
+        alert(mensaje);
+    } else {
+        mostrarError("Por favor, ingresa un mensaje");
+    }
 });
 
-//EXERCICE 4
-const btnResult = document.getElementById("btnResult");
-const multiplyTable = document.getElementById("multiplyTable");
-const inputElement = document.getElementById("inputNumber");
-btnResult.addEventListener("click", function () {
-  const number = parseInt(inputElement.value);
-  //Check if the number is valid
-  if (Number.isInteger(number)) {
-    showMultiplyTable(number);
-  } else {
-    showError("Please enter a valid number");
-  }
+// EJERCICIO 4
+const btnResultado = document.getElementById("btnResultado");
+const elementoInput = document.getElementById("elementoInput");
+btnResultado.addEventListener("click", function () {
+    const numero = parseInt(elementoInput.value);
+    // Verifica si el número es válido
+    if (Number.isInteger(numero)) {
+        mostrarTablaDeMultiplicar(numero);
+    } else {
+        mostrarError("Por favor, ingresa un número válido");
+    }
 });

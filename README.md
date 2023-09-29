@@ -5,21 +5,23 @@ En esta primera sesión, se explorarán los conceptos básicos de JavaScript y s
 ## Contenido
 
 ### Funciones de Alerta
+- **`mostrarAlerta()`:** Esta función muestra una alerta con un mensaje predefinido cuando se invoca.
 
-- `showAlert()`: Esta función muestra una alerta con el mensaje "You clicked the button!".
-- `showResult(message)`: Esta función muestra una alerta con el mensaje proporcionado como argumento.
-- `showError(message)`: Esta función muestra una alerta de error con el mensaje proporcionado como argumento.
-- `showMultiplyTable(number)`: Esta función genera una tabla de multiplicación para el número proporcionado y la muestra en el elemento con el ID "multiplyTable".
+- **`mostrarResultado(mensaje)`:** Muestra una alerta con el mensaje proporcionado como argumento.
+
+- **`mostrarError(mensaje)`:** Muestra una alerta de error con el mensaje proporcionado como argumento.
+
+- **`mostrarTablaDeMultiplicar(numero)`:** Genera y muestra una tabla de multiplicar en formato HTML para el número proporcionado.
 
 ### Ejercicios
 
 #### Ejercicio 1
 
-Este ejercicio consiste en vincular un botón a la función `showAlert()`. Cuando el botón se hace clic, se mostrará una alerta con el mensaje predeterminado.
+Este ejercicio consiste en vincular un botón a la función `mostrarAlerta()`. Cuando el botón se hace clic, se mostrará una alerta con el mensaje predeterminado.
 
 #### Ejercicio 2
 
-En este ejercicio, se debe configurar un botón para que muestre una alerta cuando el puntero del mouse pasa por encima de él. La alerta debe contener el mensaje "Click on the button".
+En este ejercicio, se debe configurar un botón para que muestre una alerta cuando el puntero del mouse pasa por encima de él. La alerta debe contener el mensaje "Haz clic en el botón".
 
 #### Ejercicio 3
 
@@ -27,7 +29,7 @@ Este ejercicio implica la configuración de un botón y un campo de entrada de t
 
 #### Ejercicio 4
 
-En este ejercicio, se debe ingresar un número en un campo de entrada y luego hacer clic en un botón. La función `showMultiplyTable(number)` generará una tabla de multiplicación para el número ingresado y la mostrará en el elemento con el ID "multiplyTable".
+En este ejercicio, se debe ingresar un número en un campo de entrada y luego hacer clic en un botón. La función `mostrarTablaDeMultiplicar(numero)` generará una tabla de multiplicación para el número ingresado y la mostrará en el elemento con el ID "multiplyTable".
 
 ## Instrucciones
 
