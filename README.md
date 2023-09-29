@@ -29,7 +29,7 @@ Este ejercicio implica la configuración de un botón y un campo de entrada de t
 
 #### Ejercicio 4
 
-En este ejercicio, se debe ingresar un número en un campo de entrada y luego hacer clic en un botón. La función `mostrarTablaDeMultiplicar(numero)` generará una tabla de multiplicación para el número ingresado y la mostrará en el elemento con el ID "multiplyTable".
+En este ejercicio, se debe ingresar un número en un campo de entrada y luego hacer clic en un botón. La función `mostrarTablaDeMultiplicar(numero)` generará una tabla de multiplicación para el número ingresado y la mostrará en el elemento con el ID "tablaDeMultiplicar".
 
 ## Instrucciones
 
