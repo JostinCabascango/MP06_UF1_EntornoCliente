@@ -39,10 +39,15 @@ git clone https://github.com/JostinCabascango/MP06_UF1_EntornoCliente.git
 ```bash
 cd MP06_UF1_EntornoCliente
 ```
-3. Asegúrate de estar en la rama correcta (Sesión 1) ejecutando el siguiente comando:
+3. Lista las ramas disponibles del repositorio con el comando
+```bash
+git branch -a.
+```
+4. Cambia a la rama sesion1 para poder ver el contenido.
 ```bash
 git checkout sesion1
 ```
+
 
 
 
