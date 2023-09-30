@@ -6,10 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sesion 5</title>
 </head>
+<style>
+    div {
+        border: solid black;
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+    p {
+        font-size: 1.5rem
+    }
+
+    button {
+        background: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+
+    }
+</style>
 
 <body>
-    <div style="display: flex;align-items:center;flex-direction:column">
-        <button id="btn">Calcular</button>
+    <div>
+        <h1>Calculadora de Años, Meses y Días</h1>
+        <button id="calcularBtn">Calcular</button>
+        <!--Mostrar resultado-->
+        <p id="resultado"></p>
+    </div>
+    <div>
+        <h1>Conversor de Temperatura</h1>
+        <button id="conversorBtn">Conversor</button>
+        <p id="resultadoTemperatura"></p>
+    </div>
+    <div>
+        <h1>Conversor de Bases</h1>
+        <button id="convertButton">Convertir a Bases</button>
+        <h2 id="valorDecimal"></h2>
+        <p id="resultBinario"> </p>
+        <p id="resultOctal"></p>
+        <p id="resultHexadecimal"></p>
+
+
     </div>
     <script src="app.js"></script>
 
