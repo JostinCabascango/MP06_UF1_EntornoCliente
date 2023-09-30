@@ -16,7 +16,6 @@ function calcularAniosMesesDias(dias) {
 }
 const calcularButton = document.getElementById("calcularBtn");
 const resultadoTxt = document.getElementById("resultado");
-10;
 calcularButton.addEventListener("click", function () {
     const dias = parseInt(prompt("Ingresa un número de días:"));
     if (!isNaN(dias)) {
