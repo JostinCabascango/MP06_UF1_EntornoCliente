@@ -12,6 +12,8 @@ Este repositorio contiene los ejercicios realizados durante las sesiones de la u
 
 ### [Sesión 4 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion4)
 
+### [Sesión 5 - Ejercicios JavaScript](https://github.com/JostinCabascango/MP06_UF1_EntornoCliente/tree/sesion5)
+
 ## Cómo usar este repositorio
 
 ### Opción 1: Desde GitHub
