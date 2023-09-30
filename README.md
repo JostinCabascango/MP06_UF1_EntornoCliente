@@ -1,6 +1,6 @@
 # Ejercicios de la Sesión 5 de JavaScript
 
-Este Repositorio consta de tres ejercicios prácticos desarrollados en JavaScript durante la Sesión 5.
+Este repositorio consta de tres ejercicios prácticos desarrollados en JavaScript durante la Sesión 5.
 
 ## Ejercicios Incluidos
 
