@@ -69,15 +69,6 @@ conversorBtn.addEventListener("click", function () {
   Convertir un número en base 10 (decimal) a su representación en base hexadecimal, octal y binaria
   utilizando bucles, divisiones y restas.
 */
-
-/*
-  De decimal a hexadecimal:
-     - Utiliza un bucle para realizar divisiones sucesivas del número decimal por 16.
-     - En cada iteración, guarda el residuo de la división en una variable.
-     - Actualiza el número decimal dividiéndolo por 16.
-     - Repite el proceso hasta que el número decimal sea igual a 0.
-     - El resultado final será la representación hexadecimal de los residuos, pero en orden inverso.
-*/
 function decimalToHexadecimal(decimal) {
     const hexadecimales = ["A", "B", "C", "D", "E", "F"]; // Representa los hexadecimales mayores a 9
     let numeroDecimal = parseInt(decimal);
@@ -97,14 +88,7 @@ function decimalToHexadecimal(decimal) {
     return hexadecimal;
 
 }
-/*
-  De decimal a octal:
-     - Utiliza un bucle para realizar divisiones sucesivas del número decimal por 8.
-     - En cada iteración, guarda el residuo de la división en una variable.
-     - Actualiza el número decimal dividiéndolo por 8.
-     - Repite el proceso hasta que el número decimal sea igual a 0.
-     - El resultado final será la representación octal de los residuos, pero en orden inverso.
-     */
+
 function decimalToOctal(decimal) {
     let numeroDecimal = parseInt(decimal);
     let octal = "";
@@ -118,15 +102,6 @@ function decimalToOctal(decimal) {
 
     return octal;
 }
-/*
-  De decimal a binario:
-     - Utiliza un bucle para realizar divisiones sucesivas del número decimal por 2.
-     - En cada iteración, guarda el residuo de la división (0 o 1) en una variable.
-     - Actualiza el número decimal dividiéndolo por 2.
-     - Repite el proceso hasta que el número decimal sea igual a 0.
-     - El resultado final será la representación binaria de los residuos, pero en orden inverso
-       (de derecha a izquierda). Debes invertir esta cadena para obtener la representación binaria correcta.
-       */
 function decimalToBinary(decimal) {
     let numeroDecimal = parseInt(decimal);
     let binario = "";
@@ -139,7 +114,7 @@ function decimalToBinary(decimal) {
     return binario;
 }
 function convertirBases() {
-    const numeroDecimal = 10;
+    const numeroDecimal = prompt("Introduce un numero en base 10: ");
     const hexa = decimalToHexadecimal(numeroDecimal);
     const octal = decimalToOctal(numeroDecimal);
     const binario = decimalToBinary(numeroDecimal);
