@@ -10,7 +10,7 @@ function decimalToBase(decimal, base) {
     }
     return resultado;
 }
-function convertirBases() {
+function convertNumberToBases() {
     const numeroDecimal = prompt("Introduce un numero en base 10: ");
     const hexa = decimalToBase(numeroDecimal, 16);
     const octal = decimalToBase(numeroDecimal, 8);
@@ -21,4 +21,4 @@ function convertirBases() {
     document.getElementById("resultBinario").textContent = `${binario} en binario`;
 }
 const convertButton = document.getElementById("convertButton");
-convertButton.addEventListener("click", convertirBases);
+convertButton.addEventListener("click", convertNumberToBases);
