@@ -6,26 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sesion 8</title>
-    <style>
-        div {
-            border: solid black;
-            display: flex;
-            align-items: center;
-            flex-direction: column
-        }
+    <link rel="stylesheet" href="style.css">
 
-        p {
-            font-size: 1.5rem
-        }
-
-        button {
-            background: #4CAF50;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-
-        }
-    </style>
 </head>
 <body>
 <div>
@@ -33,6 +15,12 @@
     <button id="btnCambio">Calcular Cambio</button>
     <p id="msgCambio"></p>
 </div>
+<div>
+    <h1>Calculadora de cambio</h1>
+    <button id="btnTabla">Generar Tabla</button>
+    <section id="tablaDOM"></section>
+</div>
+
 <script src="app.js"></script>
 
 </body>
