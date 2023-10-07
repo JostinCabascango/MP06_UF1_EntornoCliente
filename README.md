@@ -15,7 +15,3 @@ Esta rama es parte de la "Sesión 7" de ejercicios de JavaScript, que incluye un
 2. En la sección "Calculadora de Llamadas", haz clic en el botón "Calcular Precio" para ingresar la duración de la llamada telefónica y ver el costo.
 
 3. En la sección "Convertidor de Colores a Hexadecimal", haz clic en el botón "Calcular RGB" para ingresar los valores de color y ver la representación hexadecimal.
-
-## Requisitos
-
-No se requieren dependencias externas para este proyecto. Todo funciona en el navegador web.
