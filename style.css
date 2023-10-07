@@ -1,0 +1,33 @@
+div {
+    border: solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+p {
+    font-size: 1.5rem
+}
+
+button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+section {
+    margin: 1rem auto 1rem auto;
+}
+
+table {
+    border: solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: solid black;
+    padding: 10px 20px;
+}
