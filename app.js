@@ -38,6 +38,9 @@ function mostrarCambio(cambio) {
 // Función para crear una tabla con DOM (Document Object Model)
 function crearTablaDOM(filas, columnas) {
     let tabla = document.createElement("table");
+    tabla.style.border = "1px solid black";
+    tabla.style.borderCollapse = "collapse";
+
     for (let i = 0; i < filas; i++) {
         let fila = document.createElement("tr");
         for (let j = 0; j < columnas; j++) {
@@ -45,8 +48,12 @@ function crearTablaDOM(filas, columnas) {
             let celda = document.createElement("td");
             celda.appendChild(contenido);
             fila.appendChild(celda);
+            celda.style.border = "1px solid black";
+            celda.style.padding = "10px 20px"
+
         }
         tabla.appendChild(fila);
+
     }
     return tabla;
 }
