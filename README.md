@@ -1,6 +1,6 @@
 # Sesión 9 - Ejercicios de JavaScript: Tabla de Multiplicar y Pirámide de Colores
 
-En esta sesión, hemos desarrollado dos ejercicios de JavaScript que se centran en la creación de una tabla de multiplicar y una pirámide de colores en una página web. Estos ejercicios te ayudarán a practicar tus habilidades de programación y manipulación del DOM.
+En esta sesión, hemos desarrollado dos ejercicios de JavaScript que se centran en la creación de una tabla de multiplicar y una pirámide de colores en una página web.
 
 1. **Tabla de Multiplicar**: Permite al usuario generar una tabla de multiplicar personalizada. Se le solicita ingresar el número de filas y columnas para la tabla, y la aplicación generará la tabla con los resultados de la multiplicación.
 
