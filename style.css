@@ -1,5 +1,4 @@
 div {
-    border: solid black;
     display: flex;
     align-items: center;
     flex-direction: column
