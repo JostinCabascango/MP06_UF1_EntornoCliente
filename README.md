@@ -1,7 +1,23 @@
-# EJ1
-- Obtener un numero al azar entre 1-100.
-- Se trata de que el usuario lo adivine.
-- Si lo acierta se muestra un mesaje "Obtenido en {$n} intentos"
-- Si introduce un zero se mostrara "Game over" i se saldra del programa.
-- Si falla el programa se dira "Menor" o "mayor" 
-- Si introduce un numero invalido no pasa nada se segui pero se cuenta un intento mas.
+# Sesión 13 - Ejercicios de JavaScript - Juego de adivinación de números
+
+En esta sesión, hemos desarrollado un juego que consiste en adivinar un número aleatorio.
+
+## Ejercicio
+
+El ejercicio consiste en un juego donde el usuario debe adivinar un número aleatorio entre 1 y 100. El juego proporciona pistas al usuario si el número introducido es mayor o menor que el número aleatorio.
+
+## Funciones
+
+1. **generarNumeroAleatorio(min, max)**: Esta función genera un número aleatorio entre `min` y `max`.
+
+2. **pedirNumeroAlUsuario()**: Esta función solicita al usuario que adivine un número entre 1 y 100.
+
+3. **adivinarNumero()**: Esta es la función principal que controla el juego. Genera un número aleatorio, solicita al usuario que adivine el número y proporciona pistas hasta que el usuario adivine correctamente el número o decida terminar el juego.
+
+## Cómo utilizar
+
+1. Abre el archivo `index.html` en tu navegador web.
+2. Haz clic en el botón para iniciar el juego.
+3. La aplicación te pedirá que adivines un número entre 1 y 100.
+4. Después de proporcionar tu adivinanza, la aplicación te dará una pista si tu adivinanza es mayor o menor que el número aleatorio.
+5. El juego continúa hasta que adivines correctamente el número o decidas terminar el juego.
