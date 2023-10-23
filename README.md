@@ -1,18 +1,30 @@
+# Sesión 12 - Ejercicios de JavaScript - Uso de funciones de texto
 
-*EJ3: Pedir un texto al usuario y mostrar :*
-- Texto en mayusculas
-- Texto en minusculas
-- Longitud Total del texto
-- Numero de palabras del texto
-- Las vocales que aparecen en el texto
-- El numero de vocales del texto
-- La frase en numero de lineas donde cada linea le falta una letra por delante
-*EJ4*
-- El dia de nochevieja . Pepe quiero saber cuanto falta para medianoche.
-- Pide una hora en formato hh:mm:ss y muestra el numero de minutos hasta medianoche.
-- Si la hora es 00:00:00 muestra un mensaje de felicitacion "Buen año nuevo".
-- **Ejemplos**: 
-- 23:59:00 -> 1 minuto para medianoche.
-- 23:45:00 -> 15 minutos para medianoche.
-- 00:01:00 -> 1439 minutos para medianoche.
-- 21:00:00 -> 540 minutos para medianoche.
+En esta sesión, hemos desarrollado 4 ejercicios de JavaScript que se centran en utilizar funciones de texto para realizar operaciones con cadenas de texto.
+
+## Ejercicios
+
+1. **Encontrar Carácter**: Esta función solicita al usuario que ingrese un texto y un carácter. Luego, verifica si el carácter se repite de 2 a 4 veces en el texto.
+
+2. **Eliminar Carácter**: Esta función solicita al usuario que ingrese un texto y la posición del carácter que desea eliminar. Luego, elimina el carácter en la posición especificada.
+
+3. **Analizar Texto**: Esta función solicita al usuario que ingrese un texto. Luego, analiza el texto y muestra sus características, como la longitud total del texto, el número de palabras, las vocales que contiene y el número de vocales.
+
+4. **Minutos hasta la Medianoche**: Esta función solicita al usuario que ingrese una hora en formato hh:mm:ss. Luego, calcula los minutos que faltan para la medianoche a partir de la hora ingresada.
+
+## Cómo Utilizar la Aplicación
+
+1. Abre el archivo `index.html` en tu navegador web.
+2. Haz clic en los botones correspondientes para ejecutar cada función.
+3. La aplicación te pedirá ingresar los datos necesarios para cada función.
+4. Después de proporcionar los datos, la aplicación procesará la información y mostrará los resultados en la consola.
+
+## Descripción del Código
+
+El código se divide en varias partes:
+
+- **Funciones**: `encontrarCaracter`, `eliminarCaracter`, `analizarTexto` y `minutosMediaNoche`. Estas funciones realizan las operaciones principales de cada ejercicio.
+
+- **Eventos Click**: Se añaden eventos "click" a los botones en el archivo HTML para ejecutar las funciones correspondientes cuando se haga clic en ellos.
+
+- **Prompts**: Se utilizan prompts para solicitar los datos necesarios al usuario.
