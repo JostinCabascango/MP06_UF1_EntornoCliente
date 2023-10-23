@@ -8,7 +8,6 @@ function pedirNumeroAlUsuario() {
 
 function adivinarNumero() {
     const numAleatorio = generarNumeroAleatorio(1, 100);
-    console.log("Número aleatorio a adivinar:", numAleatorio);
     let numeroIntentos = 0;
     let victoria = false;
 
@@ -36,5 +35,3 @@ function adivinarNumero() {
         }
     }
 }
-
-adivinarNumero();
