@@ -1,4 +1,4 @@
-# Sesión 13 - Ejercicios de JavaScript - Juego de adivinación de números
+# Sesión 13 - Ejercicios de JavaScript - Juego de adivinar números
 
 En esta sesión, hemos desarrollado un juego que consiste en adivinar un número aleatorio.
 
