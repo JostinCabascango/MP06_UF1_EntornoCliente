@@ -10,3 +10,21 @@ function obtenerAniosQueComienzanEnMiercoles(){
         }
     }
 }
+// Funcion que determina si una palabra es pentavocalica o no (contiene las 5 vocales)
+function esPentavocalica(){
+    const palabra=prompt("Introduce una palabra");
+    const vocales=[/[aàáAÀÁ]/gi,/[eèéEÈÉ]/gi,/[iìíIÌÍ]/gi,/[oòóOÒÓ]/gi,/[uùúUÙÚ]/gi];
+    let contador=0;
+    for (let i = 0; i < vocales.length; i++) {
+        if(palabra.match(vocales[i])){
+            contador++;
+        }
+    }
+    if(contador===5){
+        console.log("Es Pentavocalica");
+    }
+    else{
+        console.log("No es Pentavocalica");
+    }
+
+}
