@@ -40,22 +40,22 @@ Este repositorio contiene los ejercicios realizados durante las sesiones de la u
 3. Puedes explorar los archivos siguiendo las instrucciones proporcionadas en los archivos `README.md` de cada sesión o en los propios archivos de código.
 
 ### Opción 2: Desde el Terminal (Línea de Comandos)
-1. Abre una ventana de línea de comandos (CMD) en tu computadora.
 
-2. Navega al directorio en el que deseas clonar el repositorio utilizando el comando `cd` (cambiar directorio). Por ejemplo:
-```shell
-   cd C:\Directorio\Deseado
-```
-3. Utiliza el comando git clone seguido de la URL de la rama específica del repositorio que deseas clonar.A continuación, se muestra un ejemplo de cómo clonar la "Sesión 1" del repositorio:
-```shell
-git clone https://github.com/JostinCabascango/MP06_UF1_EntornoCliente.git --branch sesion1 --single-branch
-```
-4. Una vez que se haya clonado la rama específica, puedes navegar al directorio correspondiente utilizando el comando cd:
-```shell
-   cd MP06_UF1_EntornoCliente
-```
-5. Dentro del directorio de la sesión específica, puedes explorar los archivos relacionados con esa sesión en particular.
-   
+Si prefieres trabajar desde el terminal, puedes clonar este repositorio y cambiar entre las ramas para explorar los ejercicios de cada sesión. Aquí te dejo algunos comandos básicos de git que te pueden ser útiles:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/JostinCabascango/MP06_UF1_EntornoCliente.git
+
+# Cambiar al directorio del repositorio
+cd MP06_UF1_EntornoCliente
+
+# Listar todas las ramas
+git branch -a
+
+# Cambiar a una rama específica (por ejemplo, sesion1)
+git checkout sesion1
+```` 
 ## Autor
 
 - [Jostin Cabascango](https://github.com/JostinCabascango/)
