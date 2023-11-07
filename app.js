@@ -94,9 +94,9 @@ function comprobarCodigoBarras(code) {
 
     }
 }
-comprobarCodigoBarras(65839522); // Correcto
-comprobarCodigoBarras(65839521); // Incorrecto
-comprobarCodigoBarras(50293657794225); // Correcto
-comprobarCodigoBarras(51293657794225); // Incorrecto
-comprobarCodigoBarras(7501031311305); // Correcto
-comprobarCodigoBarras(1234567) // Incorrecto -> Se convierte a EAN-8
+comprobarCodigoBarras(65839522);
+comprobarCodigoBarras(65839521);
+comprobarCodigoBarras(50293657794225);
+comprobarCodigoBarras(51293657794225);
+comprobarCodigoBarras(7501031311305);
+comprobarCodigoBarras(1234567)

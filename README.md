@@ -20,5 +20,3 @@ En esta sesión, hemos desarrollado dos ejercicios de JavaScript que abordan el 
 4. Haz clic en el botón "Comprobar Código de Barras" para iniciar el segundo ejercicio.
 5. La aplicación te pedirá que introduzcas un código de barras.
 6. Después de proporcionar el código de barras, la aplicación mostrará en la consola del navegador si el código es correcto o incorrecto, y en caso necesario, lo convertirá al formato adecuado.
-
-¡Disfruta resolviendo estos ejercicios y mejorando tus habilidades en JavaScript!
